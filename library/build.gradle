@@ -1,3 +1,26 @@
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'InstagramPostviewAndroid'
+
+    publishedGroupId = 'in.androidhunt.instapost'
+    libraryName = 'InstaPostview'
+    artifact = 'instagrampostview'
+
+    libraryDescription = ' Android Libary to Show Instragram Embed Post In Androd By Simply Passing The Id Of the Post'
+
+    siteUrl = 'https://github.com/pratheepchowdhary/InstagramPostViewAndroid'
+    gitUrl = 'https://github.com/pratheepchowdhary/InstagramPostViewAndroid.git'
+
+    libraryVersion = '1.0'
+
+    developerId = 'pratheepchowdhary'
+    developerName = 'PratheepKanati'
+    developerEmail = 'pratheepkanati@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
 apply plugin: 'com.android.library'
 
 android {
@@ -32,3 +55,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
+
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
