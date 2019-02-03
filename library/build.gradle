@@ -1,27 +1,29 @@
+
+apply plugin: 'com.android.library'
+
 ext {
     bintrayRepo = 'maven'
-    bintrayName = 'InstagramPostviewAndroid'
+    bintrayName = 'instapostview'
 
     publishedGroupId = 'in.androidhunt.instapost'
-    libraryName = 'InstaPostview'
-    artifact = 'instagrampostview'
+    libraryName = 'InstaPostView'
+    artifact = 'instapostview'
 
-    libraryDescription = ' Android Libary to Show Instragram Embed Post In Androd By Simply Passing The Id Of the Post'
+    libraryDescription = 'Medium android application display content with text, image, video etc in post detail. It can me a pain to do it with content came from CMS. So i decided to design that View to display the content quickly'
 
     siteUrl = 'https://github.com/pratheepchowdhary/InstagramPostViewAndroid'
     gitUrl = 'https://github.com/pratheepchowdhary/InstagramPostViewAndroid.git'
 
-    libraryVersion = '1.0'
+    libraryVersion = '1.0.0'
 
-    developerId = 'pratheepchowdhary'
-    developerName = 'PratheepKanati'
+    developerId = 'partheepchowdhary'
+    developerName = 'Pratheep Kanati'
     developerEmail = 'pratheepkanati@gmail.com'
 
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
     allLicenses = ["Apache-2.0"]
 }
-apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 28
