@@ -3,18 +3,18 @@ apply plugin: 'com.android.library'
 
 ext {
     bintrayRepo = 'maven'
-    bintrayName = 'instapostview'
+    bintrayName = 'InstagramPostViewAndroid'
 
     publishedGroupId = 'in.androidhunt.instapost'
-    libraryName = 'InstaPostView'
-    artifact = 'instapostview'
+    libraryName = 'InstagramPostViewAndroid'
+    artifact = 'InstagramPostViewAndroid'
 
     libraryDescription = 'Medium android application display content with text, image, video etc in post detail. It can me a pain to do it with content came from CMS. So i decided to design that View to display the content quickly'
 
     siteUrl = 'https://github.com/pratheepchowdhary/InstagramPostViewAndroid'
     gitUrl = 'https://github.com/pratheepchowdhary/InstagramPostViewAndroid.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.2'
 
     developerId = 'partheepchowdhary'
     developerName = 'Pratheep Kanati'
@@ -33,8 +33,8 @@ android {
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 28
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.0.2"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
