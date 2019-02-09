@@ -26,7 +26,7 @@ dependencies {
 ```xml
     <in.androidhunt.instapost.InstaPostView
         android:layout_width="match_parent"
-        android:id="@+id/insta_post"
+        android:id="@+id/insta_post_view"
         android:layout_height="wrap_content"/>
 ```
 
