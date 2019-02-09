@@ -9,12 +9,12 @@ ext {
     libraryName = 'InstagramPostViewAndroid'
     artifact = 'InstagramPostViewAndroid'
 
-    libraryDescription = 'Medium android application display content with text, image, video etc in post detail. It can me a pain to do it with content came from CMS. So i decided to design that View to display the content quickly'
+    libraryDescription = 'InstagramPostViewAndroid is an android libary to displays Instragram Embed Post Content To Your Android Appliaction Essaily With less Stuff'
 
     siteUrl = 'https://github.com/pratheepchowdhary/InstagramPostViewAndroid'
     gitUrl = 'https://github.com/pratheepchowdhary/InstagramPostViewAndroid.git'
 
-    libraryVersion = '1.0.3'
+    libraryVersion = '1.0.4'
 
     developerId = 'partheepchowdhary'
     developerName = 'Pratheep Kanati'
@@ -33,8 +33,8 @@ android {
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 28
-        versionCode 3
-        versionName "1.0.3"
+        versionCode 4
+        versionName "1.0.4"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
