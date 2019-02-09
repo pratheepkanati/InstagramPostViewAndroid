@@ -3,7 +3,7 @@ InstagramPostViewAndroid
 
  [ ![Download](https://api.bintray.com/packages/pratheepchowdhary/maven/InstagramPostViewAndroid/images/download.svg) ](https://bintray.com/pratheepchowdhary/maven/InstagramPostViewAndroid/_latestVersion)
 
-[InstagramPostViewAndroid](https://www.androidhunt.in)  android libary displays Instragram Embed Post Content To Your Appliaction Essaily With less Stuff
+[InstagramPostViewAndroid](https://www.androidhunt.in)  is an android libary to displays Instragram Embed Post Content To Your Android Appliaction Essaily With less Stuff
 
 #Screenshot1
 ![Screenshot](https://github.com/pratheepchowdhary/InstagramPostViewAndroid/blob/master/screenshot/Screenshot_in.androidhunt.instasample.png)
