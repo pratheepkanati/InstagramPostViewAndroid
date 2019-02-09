@@ -6,10 +6,10 @@ InstagramPostViewAndroid
 [InstagramPostViewAndroid](https://www.androidhunt.in)  is an android libary to displays Instragram Embed Post Content To Your Android Appliaction Essaily With less Stuff
 
 #Screenshot1
-![Screenshot](https://github.com/pratheepchowdhary/InstagramPostViewAndroid/blob/master/screenshot/Screenshot_in.androidhunt.instasample.png)
+![Screenshot](https://github.com/pratheepchowdhary/InstagramPostViewAndroid/blob/master/screenshot/Screenshot_in.androidhunt.instasample.png=750x250)
 
 #Screenshot2
-![Screenshot](https://github.com/pratheepchowdhary/InstagramPostViewAndroid/blob/master/screenshot/Screenshotin.androidhunt.instasample.png)
+![Screenshot](https://github.com/pratheepchowdhary/InstagramPostViewAndroid/blob/master/screenshot/Screenshotin.androidhunt.instasample.png=750x250)
 
 
 
