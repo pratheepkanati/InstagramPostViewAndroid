@@ -1,4 +1,4 @@
-Medium Textview
+InstagramPostViewAndroid
 ===============
 
  [ ![Download](https://api.bintray.com/packages/pratheepchowdhary/maven/InstagramPostViewAndroid/images/download.svg) ](https://bintray.com/pratheepchowdhary/maven/InstagramPostViewAndroid/_latestVersion)
