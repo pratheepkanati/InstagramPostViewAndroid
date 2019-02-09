@@ -5,15 +5,10 @@ InstagramPostViewAndroid
 
 [InstagramPostViewAndroid](https://www.androidhunt.in)  is an android libary to displays Instragram Embed Post Content To Your Android Appliaction Essaily With less Stuff
 
-#Screenshot1
-![Screenshot](https://github.com/pratheepchowdhary/InstagramPostViewAndroid/blob/master/screenshot/Screenshot_in.androidhunt.instasample.png=750x250)
-
-#Screenshot2
-![Screenshot](https://github.com/pratheepchowdhary/InstagramPostViewAndroid/blob/master/screenshot/Screenshotin.androidhunt.instasample.png=750x250)
 <div align="center">
-        <img width="45%" src="https://github.com/pratheepchowdhary/InstagramPostViewAndroid/blob/master/screenshot/Screenshot_in.androidhunt.instasample.png" alt="While Post Loading" title="While Post Loading"</img>
+        <img width="40%" src="https://github.com/pratheepchowdhary/InstagramPostViewAndroid/blob/master/screenshot/Screenshot_in.androidhunt.instasample.png" alt="While Post Loading" title="While Post Loading"</img>
         <img height="0" width="8px">
-        <img width="45%" src="https://github.com/pratheepchowdhary/InstagramPostViewAndroid/blob/master/screenshot/Screenshotin.androidhunt.instasample.png" alt="After Post Loading" title="After Post Loading"></img>
+        <img width="40%" src="https://github.com/pratheepchowdhary/InstagramPostViewAndroid/blob/master/screenshot/Screenshotin.androidhunt.instasample.png" alt="After Post Loading" title="After Post Loading"></img>
 </div>
 
 
