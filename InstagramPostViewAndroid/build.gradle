@@ -14,7 +14,7 @@ ext {
     siteUrl = 'https://github.com/pratheepchowdhary/InstagramPostViewAndroid'
     gitUrl = 'https://github.com/pratheepchowdhary/InstagramPostViewAndroid.git'
 
-    libraryVersion = '1.0.2'
+    libraryVersion = '1.0.3'
 
     developerId = 'partheepchowdhary'
     developerName = 'Pratheep Kanati'
@@ -33,8 +33,8 @@ android {
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 28
-        versionCode 2
-        versionName "1.0.2"
+        versionCode 3
+        versionName "1.0.3"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 

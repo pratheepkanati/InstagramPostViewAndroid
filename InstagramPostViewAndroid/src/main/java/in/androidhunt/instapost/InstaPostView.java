@@ -96,7 +96,51 @@ public class InstaPostView extends LinearLayout {
 
         addView(instaView);
     }
+    public void setPostContent(String content) {
+        instaView = new WebView(getContext());
+        instaView.setLayoutParams(new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT));
+        WebSettings set = instaView.getSettings();
+        set.setUseWideViewPort(true);
+        set.setLoadWithOverviewMode(true);
+        set.setLayoutAlgorithm(WebSettings.LayoutAlgorithm.NORMAL);
+        set.setCacheMode(WebSettings.LOAD_NO_CACHE);
+        set.setPluginState(WebSettings.PluginState.ON);
+        set.setPluginState(WebSettings.PluginState.ON_DEMAND);
+        set.setAllowContentAccess(true);
+        set.setAllowFileAccess(true);
+        set.setJavaScriptEnabled(true);
+        this.setLayerType(View.LAYER_TYPE_NONE, null);
+        this.measure(View.MeasureSpec.UNSPECIFIED, View.MeasureSpec.UNSPECIFIED);
+        this.setLongClickable(true);
+        instaView.setInitialScale(1);
+        instaView.setWebViewClient(new WebViewClient() {
+            @Override
+            public boolean shouldOverrideUrlLoading(WebView view, String url) {
+                try {
+                    final Activity activity = (Activity) getContext();
+                    if (activity != null)
+                        activity.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
+                } catch (RuntimeException ignored) {
+                }
+                return true;
+            }
 
+            @Override
+            public void onPageFinished(WebView view, String url) {
+                super.onPageFinished(view, url);
+            }
+        });
+        this.setOnLongClickListener(new OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                return true;
+            }
+        });
+        if (content != null) {
+            instaView.loadDataWithBaseURL("https://www.Instagram.com", getInstaHTML(content), "text/html", "utf-8", null);
+        }
+        addView(instaView);
+    }
     private String getInstaHTML(String instaId) {
         try {
             InputStream in = getResources().openRawResource(R.raw.instagram);
